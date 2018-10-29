@@ -278,7 +278,7 @@ figure {
 }
 .timeline {
   list-style: none;
-  padding: 20px 0 20px;
+  padding: 20px 20px 20px 0px;
   position: relative;
 }
 
@@ -294,7 +294,7 @@ figure {
 }
 
 .timeline > li {
-  margin-bottom: 20px;
+  margin-bottom: 10px;
   position: relative;
 }
 
@@ -331,29 +331,8 @@ figure {
   box-shadow: 0 1px 6px rgba(0, 0, 0, 0.175);
 }
 
-.timeline > li > .timeline-panel:before {
-  position: absolute;
-  top: 26px;
-  right: -15px;
-  display: inline-block;
-  border-top: 15px solid transparent;
-  border-left: 15px solid #ccc;
-  border-right: 0 solid #ccc;
-  border-bottom: 15px solid transparent;
-  content: " ";
-}
 
-.timeline > li > .timeline-panel:after {
-  position: absolute;
-  top: 27px;
-  right: -14px;
-  display: inline-block;
-  border-top: 14px solid transparent;
-  border-left: 14px solid #fff;
-  border-right: 0 solid #fff;
-  border-bottom: 14px solid transparent;
-  content: " ";
-}
+
 
 .timeline > li > .timeline-badge {
   color: #fff;
@@ -384,16 +363,17 @@ figure {
 
 .timeline > li.timeline-inverted > .timeline-panel:before {
   border-left-width: 0;
-  border-right-width: 15px;
-  left: -15px;
+  border-right-width: 0px;
+  left: 0px;
   right: auto;
+
 }
 
 .timeline > li.timeline-inverted > .timeline-panel:after {
   border-left-width: 0;
-  border-right-width: 14px;
-  left: -14px;
-  right: auto;
+  border-right-width:0px;
+  left: 0px;
+  right: auto
 }
 
 .timeline-badge.primary {
@@ -776,7 +756,8 @@ body.offcanvas #fh5co-main, body.offcanvas .fh5co-nav-toggle {
   font-weight: 500;
 }
 .image2{
-  width: 400px;
+  width: 100%;
+  padding-bottom: 20px;
   }
 
 @media screen and (max-width: 992px) {
