@@ -4386,7 +4386,9 @@ a.badge:hover, a.badge:focus {
 }
 .jumbotron h1,
 .jumbotron .h1 {
-  color: inherit;
+  color: black;
+  text-align: center;
+
 }
 .jumbotron p {
   margin-bottom: 15px;
