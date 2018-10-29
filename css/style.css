@@ -612,10 +612,12 @@ body.offcanvas #fh5co-main, body.offcanvas .fh5co-nav-toggle {
 
 .fh5co-testimonial {
   background: #32527d;
+  height: 220px;
 }
 @media screen and (max-width: 768px) {
   .fh5co-testimonial {
-    padding: 3em 0;
+    font-size: 20px;
+    height: 100%;
   }
 }
 .fh5co-testimonial .item {
@@ -627,6 +629,7 @@ body.offcanvas #fh5co-main, body.offcanvas .fh5co-nav-toggle {
   .fh5co-testimonial .item {
     padding-left: 0em;
     padding-right: 0em;
+    height: 100%;
   }
 }
 .fh5co-testimonial .item figure {
@@ -639,11 +642,13 @@ body.offcanvas #fh5co-main, body.offcanvas .fh5co-nav-toggle {
   margin: 0 auto;
 }
 .fh5co-testimonial .item p {
-  font-size: 30px;
+  font-size: 20px;
+  margin-bottom: 0px;
 }
 @media screen and (max-width: 768px) {
   .fh5co-testimonial .item p {
-    font-size: 28px;
+    font-size: 20px;
+    height: 100%;
   }
   .fh5co-testimonial img {
     width: 100%;
@@ -651,14 +656,15 @@ body.offcanvas #fh5co-main, body.offcanvas .fh5co-nav-toggle {
 }
 @media screen and (max-width: 480px) {
   .fh5co-testimonial .item p {
-    font-size: 20px;
+    font-size: 16px;
+    height: 100%;
   }
   .fh5co-testimonial img {
     width: 100%;
   }
 }
 .fh5co-testimonial .item .author {
-  font-size: 16px;
+  font-size: 12px;
   display: block;
 }
 
@@ -815,7 +821,6 @@ body.offcanvas #fh5co-main, body.offcanvas .fh5co-nav-toggle {
 .fh5co-social {
   padding: 0;
   margin: 0;
-  text-align: center;
 }
 .fh5co-social li {
   padding: 0;
@@ -1089,7 +1094,6 @@ body.offcanvas #fh5co-main, body.offcanvas .fh5co-nav-toggle {
 
 .owl-carousel-fullwidth.owl-theme .owl-dots {
   bottom: 0;
-  margin-bottom: -2.5em;
 }
 
 .owl-theme .owl-dots .owl-dot span {
