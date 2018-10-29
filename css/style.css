@@ -116,7 +116,6 @@
 }
 
 
-
   .text-vcenter {
     text-align: center;
     vertical-align: top;
@@ -646,13 +645,10 @@ body.offcanvas #fh5co-main, body.offcanvas .fh5co-nav-toggle {
   text-align: center;
 }
 .fh5co-testimonial .item figure img {
+  margin-top: 0px;
   max-width: inherit;
-  width: 90px;
+  width: 190px;
   margin: 0 auto;
-  -webkit-border-radius: 50%;
-  -moz-border-radius: 50%;
-  -ms-border-radius: 50%;
-  border-radius: 50%;
 }
 .fh5co-testimonial .item p {
   font-size: 30px;
