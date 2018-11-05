@@ -84,8 +84,9 @@
   background-size: cover;
   margin: 0 ;
 }
-    .container-footer {
+  .container-footer {
   width: 80%;
+  margin: auto;
 }
 
 
