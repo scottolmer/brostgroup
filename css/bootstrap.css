@@ -5389,6 +5389,7 @@ button.close {
   left: 0;
   z-index: 1040;
   background-color: #000;
+  display: none;
 }
 .modal-backdrop.fade {
   opacity: 0;
